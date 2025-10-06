@@ -849,3 +849,32 @@ q{
    
     background-color: var(--primary-color);
 }
+/*******************************************************************/
+/*  */
+#sec12{
+    padding: 1px;
+   margin-bottom: 50px;
+}
+.parent-sec12{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-top: 150px;
+}
+.parent-sec12 img{
+    width: 100%;
+}
+.parent-sec12 p{
+    color: #465b52;
+    line-height: 1.6;
+}
+.contant-sec12{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+marquee{
+    background-color: #ccc;
+}
