@@ -53,6 +53,22 @@
       "box4"
       "box5";
   }
+  .box-sec11{
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+  }
+  .qa{
+    width: 100%;
+    text-align: left;
+    margin-left: 0px;
+  }
+  .box-sec11 h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+   
+}
 
 }
 @media (max-width: 768px) {
@@ -63,7 +79,9 @@
 .content-header h1{
     font-size: 30px;
  }
- 
+ .qa a::after{
+    left: 40%;
+ }
  /************************************  END HEADER***************************************************/
 
 }

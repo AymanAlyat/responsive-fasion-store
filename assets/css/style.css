@@ -759,3 +759,93 @@ sub{
     margin-bottom: 30px;
     cursor: pointer;
 }
+/************************************************************************/
+#sec10{
+    padding-top: 10vh;
+    margin-bottom: 70px;
+}
+.parent-sec10{
+display: grid;
+    height: 40vh;
+    place-items: center;
+    background-image: url('../images/lies-mal-wieder.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    color: white;
+}
+.parent-sec10 div{
+   display: grid;
+    
+    place-items: center;
+}
+.parent-sec10 p{
+  margin-top: 20px;
+  text-align: center;
+}
+/******************************************************//*************/
+#sec11{
+    margin: 110px 0 50px;
+}
+.parent-sec11{
+    width: 80%;
+    margin: auto;
+   
+}
+.box-sec11{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 120px;
+    position: relative;
+    
+    
+}
+.box-sec11 h1{
+    position: absolute;
+    top: -38px;
+    left: 10px;
+    font-size: 50px;
+    opacity: 0.2;
+    z-index: -1;
+}
+/*
+.box-sec11 img{
+   width: 450px;
+   
+}*/
+
+.box-sec11 h4{
+    font-size: 32px;
+    margin-bottom: 20px;
+   
+}
+
+
+q{
+    font-size: 20px;
+    color: #465b52;
+    
+}
+.qa{
+    margin-left: 40px;
+    width: 50%;
+}
+.qa a{
+    display: block;
+    margin-top: 30px;
+    position: relative;
+    margin-bottom: 50px;
+}
+.qa a::after{
+    content: '';
+    width: 40px;
+    height: 2px;
+    position: absolute;
+    top: 30%;
+    left: 23%;
+    background-color: black;
+}
+.qa a:hover:after{
+   
+    background-color: var(--primary-color);
+}
