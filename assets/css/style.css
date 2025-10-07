@@ -878,3 +878,42 @@ q{
 marquee{
     background-color: #ccc;
 }
+/***************************************************************************/
+#sec13{
+    padding-top: 10vh;
+    margin-bottom: 30px;
+}
+.map iframe{
+    width: 100;
+}
+.parent-sec13{
+    
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    align-items: flex-start;
+    gap: 80px;
+}
+.anchor{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.about{
+     display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+
+}
+.anchor i{
+    margin-right: 5px;
+    cursor: pointer;
+    color: #000 !important;
+}
+.anchor a{
+    color: rgba(0, 0, 0,.6);
+}
+/*                                                                     */
+

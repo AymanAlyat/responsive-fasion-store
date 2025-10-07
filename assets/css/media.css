@@ -72,7 +72,16 @@
 .parent-sec12{
   flex-direction: column-reverse;
 }
-
+.parent-sec13{
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+  align-items: center;
+}
+.about{
+  margin-top: 20px;
+}
 }
 @media (max-width: 768px) {
     header{
